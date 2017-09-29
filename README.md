@@ -1,7 +1,5 @@
 # 项目概述
 
-预览地址：[https://v.huangjunye.studio](https://v.huangjunye.studio)
-
 这是一款基于LayUI布局写的视频解析工具。
 
 支持设置https协议,目前暂不支持腾讯视频解析。
