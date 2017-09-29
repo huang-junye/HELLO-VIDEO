@@ -19,7 +19,7 @@ function show(){
   	layui.use('layer', function(){
     	var index = layer.open({
   			title:'一路陪伴，请捐助我'
-  			,content: '<span style="display:block;text-align:center;font-size:20px;">微信扫一扫</span><img style="display:block;margin:0 auto;height:200px;width:200px;" src="https://v.huangjunye.studio/images/juanzhu.jpg"><span style="display:block;font-size:14px;text-align:center;margin-top:10px;">不捐助也可播放，感谢捐助</span>'
+  			,content: '<span style="display:block;text-align:center;font-size:20px;">微信扫一扫</span><img style="display:block;margin:0 auto;height:200px;width:200px;" src="/images/juanzhu.jpg"><span style="display:block;font-size:14px;text-align:center;margin-top:10px;">不捐助也可播放，感谢捐助</span>'
   			,area: '220px'
           	,scrollbar: false
           	,btn: ['直接播放']
