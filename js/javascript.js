@@ -1,7 +1,7 @@
 
 function start(){
 	if($('input').val() != ""){
-		var url = "https://api.47ks.com/webcloud/?v="+$('input').val();
+		var url = "http://yun.baiyug.cn/vip/?url="+$('input').val();
         layui.use('layer', function(){
 			  layer.open({
 			  type: 2
