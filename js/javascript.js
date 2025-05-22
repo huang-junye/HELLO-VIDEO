@@ -1,7 +1,7 @@
 
 function start(){
 	if($('input').val() != ""){
-		var url = "https://jx.77flv.cc/?url="+$('input').val();
+		var url = "https://jx.xmflv.cc/?url="+$('input').val();
         layui.use('layer', function(){
 			  layer.open({
 			  type: 2
