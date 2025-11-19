@@ -7,7 +7,7 @@ function start(){
 			  type: 2
 			  ,title: "视频播放器"
               ,scrollbar: false
-			  ,area: ['700px','550px']
+			  ,area: ['1920px','1080px']
 			  ,content: url
 			}); 
 		});
