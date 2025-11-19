@@ -1,20 +1,26 @@
-
 function start(){
-	if($('input').val() != ""){
-		var url = "https://jx.xmflv.cc/?url="+$('input').val();
+    if($('input').val() != ""){
+        var url = "https://jx.xmflv.cc/?url="+$('input').val();
         layui.use('layer', function(){
-			  layer.open({
-			  type: 2
-			  ,title: "视频播放器"
-              ,scrollbar: false
-			  ,area: ['1920px','1080px']
-			  ,content: url
-			}); 
-		});
-	}else{
-    	msg();
+            layer.open({
+                type: 2,
+                title: "视频播放器",
+                scrollbar: false,
+                area: [screen.width + 'px', screen.height + 'px'], // 使用屏幕尺寸
+                content: url,
+                maxmin: true, // 显示最大化按钮
+                shadeClose: false, // 点击遮罩不关闭
+                success: function(layero, index){
+                    // 窗口打开后自动最大化
+                    layer.full(index);
+                }
+            }); 
+        });
+    }else{
+        msg();
     }
 }
+
 function show(){
   	layui.use('layer', function(){
     	var index = layer.open({
